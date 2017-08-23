@@ -10,7 +10,7 @@ window.onload = function() {
   var container=document.getElementById('container');
   
   // Create a new WebSocket.
-var socket = new WebSocket('ws://echo.websocket.org');
+var socket = new WebSocket('wss://echo.websocket.org');
 
 // Show a connected message when the WebSocket is opened.
 socket.onopen = function(event) {
